@@ -1,0 +1,162 @@
+.headerLinks {
+    margin: auto;
+    border-bottom: 2px solid palegoldenrod;
+}
+
+.headerName {
+    margin: auto 20px;
+}
+
+header {
+    background-color: darkcyan  ;
+    color: palegoldenrod;
+    padding: 1%;
+}
+
+.name {
+    margin-left: 4%;
+}
+
+#topImg {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    object-position: 100% 77%;
+}
+
+#workImg1 {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.hoverEffect {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.hoverEffect:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+    cursor: pointer
+}
+
+
+#workImg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 18px;
+    right: 90px;
+    background-color: darkcyan;
+    font-size: 30px;
+    color: palegoldenrod;
+    padding: 10px;
+    font-weight: 200;
+}
+
+.bottom-left1 {
+    position: relative;
+    bottom: 64px;
+    left: 0px;
+    background: darkcyan;
+    width: 130px;
+    text-align: right;
+    padding: 6px 6px 6px 6px;
+    color: palegoldenrod;
+}
+.bottom-left2 {
+    position: relative;
+    bottom: 64px;
+    left: 0px;
+    background: darkcyan;
+    width: 89px;
+    text-align: right;
+    padding: 6px 6px 6px 6px;
+    color: palegoldenrod;
+}
+.bottom-left3 {
+    position: relative;
+    bottom: 64px;
+    left: 0px;
+    background: darkcyan;
+    width: 262px;
+    text-align: right;
+    padding: 6px 6px 6px 6px;
+    color: palegoldenrod;
+}
+.bottom-left4 {
+    position: relative;
+    bottom: 64px;
+    left: 0px;
+    background: darkcyan;
+    width: 168px;
+    text-align: right;
+    padding: 6px 6px 6px 6px;
+    color: palegoldenrod;
+}
+.bottom-left5 {
+    position: relative;
+    bottom: 64px;
+    left: 0px;
+    background: darkcyan;
+    width: 160px;
+    text-align: right;
+    padding: 6px 6px 6px 6px;
+    color: palegoldenrod;
+}
+
+.imgContainer {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.miniHeadings {
+    border-right: 3px solid dimgray;
+    font-size: 52px;
+    font-weight: 200;
+    text-align: right;
+    color: dimgray;
+}
+
+.aboutMeBody {
+    font-size: large;
+}
+
+section {
+    margin: 30px
+}
+
+.contactMeLinks {
+    margin: 63px auto;
+    font-size: 20px;
+    border-bottom: 3px solid darkcyan;
+    color: dimgray;
+}
+
+.navLinks:link, .navLinks:visited {
+    color: palegoldenrod;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.navLinks:hover {
+    color: black;
+    background-color: transparent;
+}
+
+a:link, a:visited {
+    color: dimgray;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: transparent;
+}
